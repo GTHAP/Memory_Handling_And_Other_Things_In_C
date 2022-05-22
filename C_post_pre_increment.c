@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main()
 {
-    int x = 0; // we initialize the value 'x' to '0'
-    int y = 0; // we initialize the value 'y' to '0'
+    int x = 0; 
+    int y = 0; 
     x++; // post-increment
     ++y; // pre-increment
     printf("%d\n", x); // the value will be '1' 
