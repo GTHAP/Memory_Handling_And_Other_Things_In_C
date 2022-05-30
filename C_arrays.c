@@ -1,7 +1,7 @@
 #include <stdio.h>
 void main()
 {
-    int A[5] = { 5, 4, 3, 2, 1 }; // the index of the integer 5 will be 0 (array indexes always start from 0)
+    int A[5] = { 5, 4, 3, 2, 1 }; // the index of the integer 5 will be 0 (array indices always start from 0)
     printf("%p\n", A); // the memory address of the array A
     printf("%p\n", &A); // this will also print the memory address of array A
     printf("%d\n", A[0]); // the value stored at index A[0]
