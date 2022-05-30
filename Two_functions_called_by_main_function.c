@@ -17,7 +17,7 @@ void main()
     int a = 1000, b = 999;
     int c = add(&a, &b);
     print(); // This may cause issues in some compilers. As the memory allocated for the add function is cleared and allocated for the print function.
+             // For example, this worked fine in onlinegdb. 
              // Use dynamic/heap memory allocation in such a scenario.
-             // This worked fine in onlinegdb. 
     printf(" %d", c);
 }
