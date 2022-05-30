@@ -4,12 +4,12 @@
 void main()
 {
     char name[] = "ICON OF SIN";
-    printf("%p\n", &name); // memory address of charcter array - name
+    printf("%p\n", &name); // memory address of character array - name
     printf("%s\n", name); // value stored in name
     int size = sizeof(name); 
     printf("%d\n", size); // size of name
     int len = strlen(name);
-    printf("%d\n", len); // length of string
+    printf("%d\n", len); // length of the string
     
     char *ptr = name; // character pointer variable that points to the initial memory address of the array - name
     printf("%p\n", ptr);
