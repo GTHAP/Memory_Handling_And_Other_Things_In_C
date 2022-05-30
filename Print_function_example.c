@@ -7,6 +7,6 @@ void New_Func(char S[])
 
 void main()
 {
-    char New_String[] = "There is a killer on the lose";
+    char New_String[] = "There is a killer on the loose";
     New_Func(New_String);
 }
